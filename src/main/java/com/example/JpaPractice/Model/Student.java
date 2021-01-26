@@ -13,7 +13,6 @@ public class Student {
     private Integer age;
     private java.lang.String department;
 
-
     private Set<Courses> courses = new HashSet<>() ;
 
     @Id
@@ -69,6 +68,9 @@ public class Student {
     public void setCourses(Set<Courses> courses) {
         this.courses = courses;
     }
+
+
+
 
     @Override
     public java.lang.String toString() {
